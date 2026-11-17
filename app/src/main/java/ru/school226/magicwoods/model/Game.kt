@@ -28,7 +28,7 @@ class Game {
     1  * *
     2 *  *
      */
-    val entities = mutableListOf<Entity>(
+    val entities = mutableListOf(
         Tree().goto(1, 1),
         Tree().goto(3, 0),
         Tree().goto(0, 2),
