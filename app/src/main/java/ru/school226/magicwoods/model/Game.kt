@@ -37,8 +37,8 @@ class Game {
     )
 
     fun move(dx: Int, dy: Int) {
-        var newX = player.x + dx
-        var newY = player.y + dy
+        val newX = player.x + dx
+        val newY = player.y + dy
 
         val entity = entities.find { it.x == newX && it.y == newY }
 
